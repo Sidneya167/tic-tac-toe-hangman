@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="forca.css">
+	<script type="text/javascript" src="forca.js"></script>
+</head>
+<body>
+	<div id="main">
+		<div id="BarraNav">
+			<ul>
+  				<li><a class="active" href="index.html">Home</a></li>
+  				<li><a href="velha.html">Jogar jogo da velha</a></li>
+  				<li><a href="forca.html";">Jogar jogo da forca</a>
+			</ul>
+			</div><br>
+		<div id="NovaP"><button onclick="inicia();">Gerar nova palavra</button><br><br></div>
+		<div id="jogo">
+			<input type="text" id="letra0" class="letra" maxlength="1">
+			<input type="text" id="letra1" class="letra" maxlength="1">
+			<input type="text" id="letra2" class="letra" maxlength="1">
+			<input type="text" id="letra3" class="letra" maxlength="1">
+			<input type="text" id="letra4" class="letra" maxlength="1">
+			<input type="text" id="letra5" class="letra" maxlength="1">
+			<input type="text" id="letra6" class="letra" maxlength="1">
+			<input type="text" id="letra7" class="letra" maxlength="1">
+			<input type="text" id="letra8" class="letra" maxlength="1">
+			<input type="text" id="letra9" class="letra" maxlength="1">
+			<input type="text" id="letra10" class="letra" maxlength="1">
+			<input type="text" id="letra11" class="letra" maxlength="1">
+			<input type="text" id="letra12" class="letra" maxlength="1">
+			<input type="text" id="letra13" class="letra" maxlength="1">
+			<input type="text" id="letra14" class="letra" maxlength="1">
+			<input type="text" id="letra15" class="letra" maxlength="1">
+			<input type="text" id="letra16" class="letra" maxlength="1">
+			<input type="text" id="letra17" class="letra" maxlength="1">
+			<input type="text" id="letra18" class="letra" maxlength="1">
+			<input type="text" id="letra19" class="letra" maxlength="1">
+		</div><br><br>
+		<div id="jogador">
+			<div id="Cjogador">
+				<input type="text" id="letraJ" class="letraJ" maxlength="1"><br><br>
+				<button id="jogar" onclick="jogar();">Jogar</button><br><br>
+				<div id="letrasdig">Letras Digitadas: </div><br><br>
+				<div id="msg"></div><br>
+			</div>
+			<div id="imgforca">
+				<img id="cabeca" src="cabeca1.png">
+				<img id="corpo" src="corpo.png">
+				<img id="bracoE" src="bracoE.png">
+				<img id="bracoD" src="bracoD.png">
+				<img id="pernaE" src="pernaE.png">
+				<img id="pernaD" src="pernaD.png">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

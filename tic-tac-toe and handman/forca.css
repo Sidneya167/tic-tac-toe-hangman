@@ -1,0 +1,107 @@
+#main {
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 550px;
+	height: 100%;
+	min-height: 800px;
+	border: 1px solid;
+	background-color: #333;
+}
+#BarraNav {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+body {
+	background-color: #111;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+p {
+	margin-left: 100px;
+	margin-top: 100px;
+	color: white;
+}
+.letra {
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: 5px;
+	display: none;
+}
+.letraJ {
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#NovaP {
+	margin-left: 190px;
+}
+#jogo {
+	margin-left: 28%;
+}
+#letraJ {
+	margin-left: 240px;
+}
+#jogar {
+	margin-left: 225px;
+}
+#letrasdig {
+	color: white;
+	margin-left: 170px;
+}
+#msg {
+	margin-left: 200px;
+	color: white;
+}
+#cabeca {
+	position: absolute;
+	margin-left: 200px;
+}
+#corpo {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 85px;
+}
+#bracoD {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 85px;
+}
+#bracoE {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 85px;
+}
+#pernaD {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 110px;
+}
+#pernaE {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 110px;
+}
